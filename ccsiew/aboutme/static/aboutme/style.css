@@ -1,0 +1,54 @@
+html, body{height:100%;}
+
+.section-above{
+	height: 300px;
+	background-image: url("images/singapore_city.jpg");
+	background-size: 100% 100%; /*make image fit into the block*/
+	text-align: center;
+	font-size: 40px;
+	font-family: georgia;
+}
+
+.section-below{
+	height: 50%;
+	background-color: #005580;
+	text-align: center;
+	font-size: 30px;
+	font-family: arial;
+	color: white
+}
+
+.button {
+	background-color: black;
+	border-radius:12px; /*round edge of border*/
+	color: white;
+	padding: 20px;
+	text-align: center;
+	display: inline-block; /*to make it in a row*/
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	width: 200px; /*size of button*/
+}
+
+.button:hover {
+  background-color: grey;
+  color: white;
+}
+
+a:link, a:visited{
+	color: white;
+	text-decoration: none; /*remove underline after clicked*/
+}
+
+img { /*make image stay center*/
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.res{
+	display: block;
+	position: relative;
+}
